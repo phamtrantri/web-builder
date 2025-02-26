@@ -18,6 +18,14 @@ Please refer to this technical design for overall architecture and rationale beh
     ├── utils/         # utility functions
 ```
 
+## Data modeling
+
+Please refer to ./app/data/templateList.ts file
+
+Rationale:
+With content and params, we can provide a dynamic way for configuring the templates
+Each configurable html tag will have an identifer and a set of default params
+
 ## Main flow
 
 ![Flow Chart](./app/docs/flow_chart.png)
